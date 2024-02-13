@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    char s1[20],s2[20];
+    int res;
+    printf("input elements of 1st string");
+    gets(s1);
+    printf("input elements of 2nd string");
+    gets(s2);
+    res=strcmp(s1,s2);
+    if(res==0)
+    printf("equal strings");
+    else
+    printf("not equal string");
+}
